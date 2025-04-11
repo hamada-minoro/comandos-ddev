@@ -58,6 +58,23 @@ ddev launch
 
 ---
 
+
+## 🔹 Apenas Banco de dados MySQL + phpmyadmin
+
+```bash
+ddev config --project-type=php --docroot=. --create-docroot
+ddev start
+```
+
+### Após instalar:
+
+```bash
+ddev phpmyadmin
+
+```
+
+---
+
 ## 🧹 Como remover um projeto DDEV
 
 ```bash
