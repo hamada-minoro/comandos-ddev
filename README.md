@@ -62,7 +62,7 @@ ddev launch
 
 ```bash
 ddev stop
-ddev delete
+ddev delete --omit-snapshot
 rm -r .ddev
 ```
 
