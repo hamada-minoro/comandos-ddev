@@ -19,7 +19,6 @@ Este guia contém os comandos essenciais para configurar projetos usando DDEV co
 mkdir meu-projeto-php && cd meu-projeto-php
 ddev config --project-type=php --docroot=public
 ddev start
-ddev composer create laravel/laravel .
 ```
 
 > 🔧 A pasta `public` será criada automaticamente. Adicione seus arquivos PHP dentro dela.
